@@ -1,14 +1,49 @@
 /*
+font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace;
-font-family: 'Raleway', sans-serif;
 */
-body {
+html, body, h1, h2, h3, p, ul, li, a {
   margin: 0;
-  text-decoration: none;
-  font-size: 1em;
   padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  text-decoration: none;
 }
 
-h1 {
+h1, h2 {
+  color: darkgray;
   font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+  font-size: 50px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 32px;
+  letter-spacing: -0.8px;
+}
+
+h3 {
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 28px;
+  margin: 15px 0px;
+}
+
+p {
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+a {
+  color: cornflowerblue;
+}
+
+a:hover {
+  color: coral;
 }
